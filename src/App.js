@@ -1,4 +1,3 @@
-// src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
@@ -12,8 +11,8 @@ function App() {
     <div className="App font-opensans">
       <Router>
         <Routes>
-          <Route index path="/" element={<HomePage />} />
-          <Route index path='/about' element={<About />} />
+          <Route index path="/" element={<HomePage />} /> {/*Homepage */}
+          <Route index path='/about' element={<About />} /> {/*About*/}
         </Routes>
       </Router>
     </div> 
