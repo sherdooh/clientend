@@ -8,8 +8,9 @@ const DisplayPost = () => {
 
   const fetchData = async () => {
     try {
-      const res = await fetch("http://100.25.204.246:8000/api/blogpost", {
+      const res = await fetch("https://healthplusblog-j6c1xpfb1-sherdooh.vercel.app/api", {
         method: "GET",
+        headers: { "content-type": "application/json" },
       });
 
       if (res.ok) {
