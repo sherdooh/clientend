@@ -13,7 +13,7 @@ const Hero = () => {
           <p className="text-dark-hard mt-4 md:text-xl lg:text-base xl:text-xl">
           Discover a treasure trove of captivating health 
           articles tailored to your interests. 
-          Stay informed, be inspired, and start your journey to better health today!
+          Stay informed, be inspired, and start your journey to better health today!!
           </p>
           <div className="flex flex-col gap-y-2.5 mt-10 xl:mt-10 relative">
             <div className="relative">
